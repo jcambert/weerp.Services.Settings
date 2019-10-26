@@ -1,8 +1,8 @@
 ﻿using MicroS_Common.Repository;
 using System.Threading.Tasks;
+using weerp.domain.Settings.Domain;
 using weerp.domain.Settings.Dto;
-using weerp.Services.Settings.Domain;
-using weerp.Services.Settings.Queries;
+using weerp.domain.Settings.Queries;
 
 namespace weerp.Services.Settings.Repositories
 {

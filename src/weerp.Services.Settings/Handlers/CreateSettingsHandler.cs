@@ -1,12 +1,12 @@
-﻿using System.Threading.Tasks;
-using AutoMapper;
+﻿using AutoMapper;
 using MicroS_Common.Handlers;
 using MicroS_Common.RabbitMq;
 using MicroS_Common.Repository;
 using MicroS_Common.Types;
-using weerp.Services.Settings.Domain;
-using weerp.Services.Settings.Messages.Commands;
-using weerp.Services.Settings.Messages.Events;
+using System.Threading.Tasks;
+using weerp.domain.Settings.Domain;
+using weerp.domain.Settings.Messages.Commands;
+using weerp.domain.Settings.Messages.Events;
 using weerp.Services.Settings.Repositories;
 
 namespace weerp.Services.Settings.Handlers

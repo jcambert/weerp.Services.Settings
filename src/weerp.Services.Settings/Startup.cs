@@ -1,8 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Threading.Tasks;
 using Autofac;
 using AutoMapper;
 using Consul;
@@ -16,12 +11,13 @@ using MicroS_Common.RabbitMq;
 using MicroS_Common.Redis;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using weerp.Services.Settings.Domain;
-using weerp.Services.Settings.Messages.Commands;
-using weerp.Services.Settings.Messages.Events;
+using System.Reflection;
+using weerp.domain;
+using weerp.domain.Settings.Domain;
+using weerp.domain.Settings.Messages.Commands;
+using weerp.domain.Settings.Messages.Events;
 
 namespace weerp.Services.Settings
 {
@@ -38,7 +34,7 @@ namespace weerp.Services.Settings
             //services.AddOpenTracing();
             services.AddRedis();
             services.AddInitializers(typeof(IMongoDbInitializer));
-            services.AddAutoMapper(Assembly.GetEntryAssembly());
+            services.AddAutoMapper(Assembly.GetEntryAssembly(),typeof(DomainProfile).Assembly);
         }
         public void ConfigureContainer(ContainerBuilder builder)
         {

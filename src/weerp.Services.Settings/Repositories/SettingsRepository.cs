@@ -1,9 +1,9 @@
-﻿using System.Threading.Tasks;
-using MicroS_Common.Mongo;
+﻿using MicroS_Common.Mongo;
 using MicroS_Common.Repository;
 using MicroS_Common.Types;
-using weerp.Services.Settings.Domain;
-using weerp.Services.Settings.Queries;
+using System.Threading.Tasks;
+using weerp.domain.Settings.Domain;
+using weerp.domain.Settings.Queries;
 
 namespace weerp.Services.Settings.Repositories
 {

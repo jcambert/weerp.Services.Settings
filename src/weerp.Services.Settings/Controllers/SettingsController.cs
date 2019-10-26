@@ -4,7 +4,7 @@ using MicroS_Common.Types;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 using weerp.domain.Settings.Dto;
-using weerp.Services.Settings.Queries;
+using weerp.domain.Settings.Queries;
 
 namespace weerp.Services.Settings.Controllers
 {

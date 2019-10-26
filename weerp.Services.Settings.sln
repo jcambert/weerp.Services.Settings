@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "weerp.Services.Settings", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroS-Common", "..\..\MicroS-Common\src\MicroS-Common\MicroS-Common.csproj", "{296369B0-7368-456F-AF0D-F4FAF17A34CC}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "weerp.domain", "..\weerp.domain\src\weerp.domain\weerp.domain.csproj", "{28BC0B65-7C4E-4971-BD1B-599BF56C5B81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{296369B0-7368-456F-AF0D-F4FAF17A34CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{296369B0-7368-456F-AF0D-F4FAF17A34CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{296369B0-7368-456F-AF0D-F4FAF17A34CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28BC0B65-7C4E-4971-BD1B-599BF56C5B81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28BC0B65-7C4E-4971-BD1B-599BF56C5B81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28BC0B65-7C4E-4971-BD1B-599BF56C5B81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28BC0B65-7C4E-4971-BD1B-599BF56C5B81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
