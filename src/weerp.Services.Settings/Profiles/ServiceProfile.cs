@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
+using weerp.domain.Settings.Dto;
 using weerp.Services.Settings.Domain;
-using weerp.Services.Settings.Dto;
 using weerp.Services.Settings.Messages.Commands;
 using weerp.Services.Settings.Messages.Events;
 

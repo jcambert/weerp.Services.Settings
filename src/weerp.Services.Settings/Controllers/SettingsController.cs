@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using MicroS_Common.Controllers;
+﻿using MicroS_Common.Controllers;
 using MicroS_Common.Dispatchers;
 using MicroS_Common.Types;
 using Microsoft.AspNetCore.Mvc;
-using weerp.Services.Settings.Dto;
+using System.Threading.Tasks;
+using weerp.domain.Settings.Dto;
 using weerp.Services.Settings.Queries;
 
 namespace weerp.Services.Settings.Controllers

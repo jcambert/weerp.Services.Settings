@@ -2,7 +2,7 @@
 
 namespace weerp.Services.Settings.Dto
 {
-    public class SettingDto
+   /* public class SettingDto
     {
         public Guid Id { get; set; }
         public int Numero { get; set; }
@@ -18,5 +18,5 @@ namespace weerp.Services.Settings.Dto
         public double? DoubleValue { get; set; }
 
         public DateTime? DateValue { get; set; }
-    }
+    }*/
 }

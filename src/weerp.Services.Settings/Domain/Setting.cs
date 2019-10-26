@@ -3,7 +3,7 @@ using System;
 
 namespace weerp.Services.Settings.Domain
 {
-    public class Setting : BaseEntity
+   /* public class Setting : BaseEntity
     {
         private string _desc;
         private int _numero;
@@ -61,5 +61,5 @@ namespace weerp.Services.Settings.Domain
 
         public DateTime? DateValue { get; private set; }
 
-    }
+    }*/
 }

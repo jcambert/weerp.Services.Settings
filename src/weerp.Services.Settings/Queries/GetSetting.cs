@@ -1,6 +1,6 @@
 ﻿using MicroS_Common.Types;
 using System;
-using weerp.Services.Settings.Dto;
+using weerp.domain.Settings.Dto;
 
 namespace weerp.Services.Settings.Queries
 {
