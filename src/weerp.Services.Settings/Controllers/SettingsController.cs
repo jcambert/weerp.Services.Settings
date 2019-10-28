@@ -21,5 +21,6 @@ namespace weerp.Services.Settings.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<SettingDto>> GetAsync([FromRoute] GetSetting query)
             => Single(await QueryAsync(query));
+
     }
 }

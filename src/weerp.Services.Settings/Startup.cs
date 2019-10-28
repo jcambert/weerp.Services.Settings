@@ -64,6 +64,7 @@ namespace weerp.Services.Settings
 #pragma warning restore MVC1005
             app.UseRabbitMq()
                 .SubscribeCommand<CreateSetting>(onError: (c, e) =>new CreateSettingRejected(c.Id, e.Message, e.Code))
+                .SubscribeCommand<CreateDefaultsSettings>(onError: (c, e) => new CreateSettingRejected(c.Id, e.Message, e.Code))
                 /*.SubscribeCommand<UpdateProduct>(onError: (c, e) =>new UpdateProductRejected(c.Id, e.Message, e.Code))
                 .SubscribeCommand<DeleteProduct>(onError: (c, e) =>new DeleteProductRejected(c.Id, e.Message, e.Code))
                 .SubscribeCommand<ReserveProducts>(onError: (c, e) =>new ReserveProductsRejected(c.OrderId, e.Message, e.Code))
